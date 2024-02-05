@@ -107,11 +107,12 @@ ul {
 
 .application {
     background: rgb(130, 141, 172);
-    width: 90%;
-    max-width: 600px;
+    width: 80%;
+    max-width: 800px;
     border-radius: 10px;
-    margin: 100px auto 0;
+    margin: 90px auto 0;
     padding: 30px;
+
 }
 
 .application h1 {

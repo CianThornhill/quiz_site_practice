@@ -148,10 +148,13 @@ ul {
     transition: all 0.3s;
 }
 
-.btn:hover{
+.btn:hover:not([disabled]){
     background-color: #34363a;
     color: #fff;
+}
 
+.btn:disabled{
+    cursor: no-drop;
 }
 
 #next-btn{
@@ -166,6 +169,14 @@ ul {
     cursor: pointer;
     display: none;
 
+}
+
+.correct{
+    background-color: rgb(108, 172, 134);
+}
+
+.incorrect{
+    background-color: rgb(161, 107, 120);
 }
 /* --------------------- */
 /* Footer */

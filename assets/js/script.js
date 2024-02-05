@@ -18,12 +18,12 @@ const questions = [
         ]
     },
     {
-        question: "Which pokemon evolves from Charmander",
+        question: "What is the final evolution of Bulbasaur?",
         answers:[
-            {text: "Charizard", correct:false},
-            {text: "Gyrados", correct:false},
-            {text: "Charmeleon", correct:true},
-            {text: "Dragonair", correct:false},
+            {text: "Scyther", correct:false},
+            {text: "Belsprout", correct:false},
+            {text: "Venasaur", correct:true},
+            {text: "Blastoise", correct:false},
         ]
     },
     {

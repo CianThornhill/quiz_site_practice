@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body{
+    background: rgb(187, 195, 214);
+    padding-top:90px; /* padding to counteract fixed height of navbar*/
+
+}
+
+main{
+    height:100vh;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.header {
+    position: fixed;
+    width:100%;
+    top:0;
+
+}
+
+/*Nav Bar CSS*/
+
+.nav-bar {
+    background-color: rgb(73, 78, 116);
+
+}
+
+.nav-bar-content {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    /*max-width: 1200px;*/
+    margin: 0 auto;
+    height: 60px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap:10px; /*adds gap to column dividnt image and text*/
+    
+}
+
+.logo__img {
+    height: 50px;
+
+}
+
+.logo__text {
+    color:#fff;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing:-0.5px;
+
+}
+
+.nav__list {
+    display: flex;
+    column-gap:40px;
+    justify-content: left;
+
+}
+
+.nav__item {
+    
+}
+
+.nav__link {
+    color:rgba(255, 255, 255, 0.75);
+    transition: all 0.2s;
+
+}
+
+.nav__link:hover,
+.nav__link:focus {
+    color:rgba(255, 255, 255, 1);
+
+}
+
+
+.hamburger{
+    display: none;
+
+}
+
+.bar {
+
+}
+
+/* Quiz game css*/
+
+.application {
+    background: rgb(130, 141, 172);
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 100px auto 0;
+    padding: 30px;
+}
+
+.application h1 {
+    font-weight:25px;
+    color:rgb(13, 9, 71);
+    font-weight: 600px;
+    padding-bottom:25px;
+    border-bottom: 2px solid black;
+}
+
+.quiz {
+    padding: 20px, 0;
+}
+
+.quiz h2 {
+    font-size: 18px;
+    color:rgb(13, 9, 71);
+    font-weight:600;
+    padding-top: 10px;
+}
+
+.btn {
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* --------------------- */
+/* Footer */
+.footer{
+
+}
+
+.footer-content{
+    background-color:rgb(73, 78, 116);
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color:#fff;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+
+}

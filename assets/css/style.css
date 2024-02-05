@@ -145,6 +145,27 @@ ul {
     text-align: left;
     border-radius: 4px;
     cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    background-color: #34363a;
+    color: #fff;
+
+}
+
+#next-btn{
+    background: rgb(73, 78, 116);
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+
 }
 /* --------------------- */
 /* Footer */
